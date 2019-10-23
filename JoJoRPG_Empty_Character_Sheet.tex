@@ -27,46 +27,41 @@
 
 	\begin{longtable}{| p{6cm} | p{6cm} |}
 		\hline
-		\multicolumn{2}{| c |}{ \textbf{\LARGE NAME HERE}} \\
+		\multicolumn{2}{| c |}{ \textbf{\LARGE 	\TextField[name=name,width=10cm]{}}} \\
 		\hline
-		\large Stamina: \TextField[name=curstamina, width=1cm]{} / \TextField[name=maxstamina, width=1cm]{} & \large Proficiency: \TextField[name=proficiency, width=1cm]{}  \\
+		\large Stamina: \TextField[name=curstamina, width=0.5cm]{} / \TextField[name=maxstamina, width=0.5cm]{} & \large Proficiency: \TextField[name=proficiency, width=0.5cm]{}  \\
 		\hline
-		\multicolumn{2}{| p{12cm} |}{\large Movement: \TextField[name=movement, width=1cm] } \\
+		\multicolumn{2}{| p{12cm} |}{\large Movement: \TextField[name=movement, width=0.5cm] } \\
 		\hline
-		\multicolumn{2}{| p{12cm}| }{Description: DESCRIPTION HERE}\\
+		\multicolumn{2}{| p{12cm}| }{Description: }\\
+		\multicolumn{2}{| p{12cm}| }{ \TextField[name=description,width=10cm,height=5cm,multiline=true]{}}\\
 		\hline
 		\large Strengths: & \large Weaknesses: \\
 		\hline
-		\begin{itemize}
-			\item STRENGTHS GO HERE
-		\end{itemize} 
-		&
-		\begin{itemize}
-		\item WEAKNESSES GO HERE
-		\end{itemize}\\
+		\TextField[name=strengths,width=4cm,height=5cm,multiline=true]{}\\
+		&    
+		\TextField[name=weaknesse,width=4cm,height=5cm,multiline=true]{}\\
 		\hline
-		\multicolumn{2}{| c |}{\LARGE \textbf{ STAND NAME HERE}} \\
+		\multicolumn{2}{| c |}{\LARGE \textbf{ \TextField[name=standname,width=10cm]{}}} \\
 		\hline
-		\multicolumn{1}{| c }{\large Destructive Power: X} & \multicolumn{1}{| c |}{\large Speed: X} \\
+		\multicolumn{1}{| c }{\large Destructive Power: \TextField[name=destructivepower, width=0.5cm] } & \multicolumn{1}{| c |}{\large Speed: \TextField[name=speed, width=0.5cm] } \\
 		\hline
-		\multicolumn{1}{| c }{\large Range: X}  &\multicolumn{1}{| c |}{\large Persistence: X} \\
+		\multicolumn{1}{| c }{\large Range: \TextField[name=range, width=0.5cm] }  &\multicolumn{1}{| c |}{\large Persistence: \TextField[name=persistence, width=0.5cm] } \\
 		\hline
-		\multicolumn{1}{| c }{\large Precision: X}  & \multicolumn{1}{| c |}{\large Development Potential: X} \\
+		\multicolumn{1}{| c }{\large Precision: \TextField[name=precision, width=0.5cm] }  & \multicolumn{1}{| c |}{\large Development Potential: \TextField[name=developmntpotential, width=0.5cm] } \\
 		\hline
-		\multicolumn{2}{| p{12cm}| }{Description: STAND DESCRIPTION HERE }\\
+		\multicolumn{2}{| p{12cm}| }{Stand Description: }\\
+		\multicolumn{2}{| p{12cm} |}{\TextField[name=standdescription,width=10cm,height=3cm,multiline=true]{}}\\
 		\hline 
-		\multicolumn{2}{| p{12cm} | }{ Abilities: STAND ABILITIES HERE}\\	
+		\multicolumn{2}{| p{12cm} | }{ Abilities:}\\	
+				\multicolumn{2}{| p{12cm} |}{\TextField[name=standabilities,width=10cm,height=3cm,multiline=true]{}}\\
 		\hline
 		\multicolumn{2}{| c |}{\large Moves} \\
 		\hline
-		\multicolumn{2}{| p{12cm} |}{
-			\begin{itemize}
-				\item (X) - MOVE NAME HERE - MOVE EXPLANATION HERE
-			\end{itemize}}\\
+		\multicolumn{2}{| p{12cm} |}{\TextField[name=standabilities,width=10cm,height=9cm,multiline=true]{}}\\
 		\hline
 	
 		\end{longtable}
-	\TextField[name=name,width=3cm,charsize=12pt]{}
 	
 	
 \end{document}
