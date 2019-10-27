@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,15pt]{article}
 
 
 \usepackage[english]{babel}
@@ -33,7 +33,7 @@
 		\hline
 		\multicolumn{2}{| p{12cm} |}{\large Movement: \TextField[name=movement, width=0.5cm] } \\
 		\hline
-		\multicolumn{2}{| p{12cm}| }{Description: }\\
+		\multicolumn{2}{| p{12cm}| }{\large Description: }\\
 		\multicolumn{2}{| p{12cm}| }{ \TextField[name=description,width=10cm,height=5cm,multiline=true]{}}\\
 		\hline
 		\large Strengths: & \large Weaknesses: \\
@@ -48,14 +48,17 @@
 		\hline
 		\multicolumn{1}{| c }{\large Precision: \TextField[name=precision, width=0.5cm] }  & \multicolumn{1}{| c |}{\large Development Potential: \TextField[name=developmntpotential, width=0.5cm] } \\
 		\hline
-		\multicolumn{2}{| p{12cm}| }{\Large Stand Description: }\\
-		\multicolumn{2}{| p{12cm} |}{\TextField[name=standdescription,width=10cm,height=3cm,multiline=true]{}}\\
+		\multicolumn{2}{| p{12cm}| }{\large Stand Description: }\\
+		\multicolumn{2}{| p{12cm} |}{\TextField[name=standdescription,width=10cm,height=3.7cm,multiline=true]{}}\\
 		\hline 
-		\multicolumn{2}{| p{12cm} | }{\Large Abilities:}\\
-				\multicolumn{2}{| p{12cm} |}{\TextField[name=standabilities,width=10cm,height=3cm,multiline=true]{}}\\
+		\multicolumn{2}{| p{12cm} | }{\large Abilities:}\\
+				\multicolumn{2}{| p{12cm} |}{\TextField[name=standabilities,width=10cm,height=3.7cm,multiline=true]{}}\\
 		\hline
-		\multicolumn{2}{| p{12cm} | }{ \Large Moves:}\\
+		\multicolumn{2}{| p{12cm} | }{ \large Moves:}\\
 		\multicolumn{2}{| p{12cm} |}{\TextField[name=moves,width=10cm,height=9cm,multiline=true]{}}\\
+		\hline
+		\multicolumn{2}{| p{12cm} | }{ \large Notes:}\\
+		\multicolumn{2}{| p{12cm} |}{\TextField[name=notes,width=10cm,height=6cm,multiline=true]{}}\\
 		\hline
 	
 		\end{longtable}
