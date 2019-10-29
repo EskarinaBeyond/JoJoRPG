@@ -34,11 +34,13 @@
 		\multicolumn{2}{| p{12cm} |}{\large Movement: \TextField[name=movement, width=0.5cm] } \\
 		\hline
 		\multicolumn{2}{| p{12cm}| }{\large Description: }\\
-		\multicolumn{2}{| p{12cm}| }{ \TextField[name=description,width=10cm,height=5cm,multiline=true]{}}\\
+		\multicolumn{2}{| c | }{ \TextField[name=description,width=12cm,height=5cm,multiline=true]{}}\\
 		\hline
 		\large Strengths: & \large Weaknesses: \\
 		\hline
-		\TextField[name=strengths2,width=6cm,height=5cm,multiline=true]{} & \TextField[name=weknesses2,width=6cm,height=5cm,multiline=true]{}\\
+		\begin{adjustwidth}{-0cm}{-0cm}\TextField[name=strengths,width=6cm,height=4.5cm,multiline=true]{} \end{adjustwidth} 
+		&
+		\begin{adjustwidth}{-0cm}{-0cm} \TextField[name=weknesses,width=6cm,height=4.5cm,multiline=true]{} \end{adjustwidth}\\
 		\hline
 		\multicolumn{2}{| c |}{\LARGE \textbf{ \TextField[name=standname,width=10cm]{}}} \\
 		\hline
@@ -49,16 +51,16 @@
 		\multicolumn{1}{| c }{\large Precision: \TextField[name=precision, width=0.5cm] }  & \multicolumn{1}{| c |}{\large Development Potential: \TextField[name=developmntpotential, width=0.5cm] } \\
 		\hline
 		\multicolumn{2}{| p{12cm}| }{\large Stand Description: }\\
-		\multicolumn{2}{| p{12cm} |}{\TextField[name=standdescription,width=10cm,height=3.7cm,multiline=true]{}}\\
+		\multicolumn{2}{| p{12cm} |}{\TextField[name=standdescription,width=12cm,height=3.7cm,multiline=true]{}}\\
 		\hline 
 		\multicolumn{2}{| p{12cm} | }{\large Abilities:}\\
-				\multicolumn{2}{| p{12cm} |}{\TextField[name=standabilities,width=10cm,height=3.7cm,multiline=true]{}}\\
+				\multicolumn{2}{| p{12cm} |}{\TextField[name=standabilities,width=12cm,height=3.7cm,multiline=true]{}}\\
 		\hline
 		\multicolumn{2}{| p{12cm} | }{ \large Moves:}\\
-		\multicolumn{2}{| p{12cm} |}{\TextField[name=moves,width=10cm,height=9cm,multiline=true]{}}\\
+		\multicolumn{2}{| p{12cm} |}{\TextField[name=moves,width=12cm,height=9cm,multiline=true]{}}\\
 		\hline
 		\multicolumn{2}{| p{12cm} | }{ \large Notes:}\\
-		\multicolumn{2}{| p{12cm} |}{\TextField[name=notes,width=10cm,height=6cm,multiline=true]{}}\\
+		\multicolumn{2}{| p{12cm} |}{\TextField[name=notes,width=12cm,height=6cm,multiline=true]{}}\\
 		\hline
 	
 		\end{longtable}
